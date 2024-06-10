@@ -13,9 +13,19 @@ public class AttackButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.A))
         {
-            swordAnimator.SetTrigger("Attack");
+            swordAnimator.SetTrigger("AttackA");
+        }
+
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            swordAnimator.SetTrigger("AttackB");
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            swordAnimator.SetTrigger("AttackC");
         }
     }
 }
