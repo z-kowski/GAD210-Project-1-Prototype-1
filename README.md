@@ -1,1 +1,2 @@
-# GAD210 project 1 prototype 1
+# GAD210 project 1
+# all prototypes, one scene each
